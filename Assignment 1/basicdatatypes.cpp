@@ -1,19 +1,14 @@
 #include <iostream>
-#include <cstdio>
 using namespace std;
 
-int main()
-{
-
-    int i;
-    long l;
-    char c;
-    float f;
-    double d;
-
-    scanf("%d %ld %c %f %lf", &i, &l, &c, &f, &d);
-
-    printf("%d\n%ld\n%c\n%.3f\n%.9lf\n", i, l, c, f, d);
-
-    return 0;
+int main() {
+   cout << "Size of char : " << sizeof(char) << endl;
+   cout << "Size of int : " << sizeof(int) << endl;
+   cout << "Size of short int : " << sizeof(short int) << endl;
+   cout << "Size of long int : " << sizeof(long int) << endl;
+   cout << "Size of float : " << sizeof(float) << endl;
+   cout << "Size of double : " << sizeof(double) << endl;
+   cout << "Size of wchar_t : " << sizeof(wchar_t) << endl;
+   
+   return 0;
 }
