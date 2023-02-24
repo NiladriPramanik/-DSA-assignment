@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    
     int ar[1000], n;
 
     cin >> n;
